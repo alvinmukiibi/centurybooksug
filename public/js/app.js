@@ -38,7 +38,8 @@ var default_layout = "default";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm.js");
 /* harmony import */ var _views_App_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./views/App.vue */ "./resources/js/views/App.vue");
- //Main pages
+/* eslint-disable no-unused-vars */
+ // Main pages
 
 
 var app = new vue__WEBPACK_IMPORTED_MODULE_1__.default({
