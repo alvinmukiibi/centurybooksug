@@ -5,11 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('favicon-32x32.png') }}">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;600&display=swap" rel="stylesheet">
     <script src="https://www.google.com/recaptcha/api.js?onload=vueRecaptchaApiLoaded&render=explicit" async defer>
     </script>
+        <link rel="stylesheet" href="{{asset('css/assets/bootstrap.min.css')}}">
+        <!-- Fontawesome Icon -->
+        <link rel="stylesheet" href="{{asset('css/assets/font-awesome.min.css')}}">
+        <!-- Animate Css -->
+        <link rel="stylesheet" href="{{asset('css/assets/animate.css')}}">
+        <!-- Owl Slider -->
+        <link rel="stylesheet" href="{{asset('css/assets/owl.carousel.min.css')}}">
+        <!-- Custom Style -->
+        <link rel="stylesheet" href="{{asset('css/assets/normalize.css')}}">
+        <link rel="stylesheet" href="{{asset('css/assets/responsive.css')}}">
     <link rel="stylesheet" href="{{ mix('css/app.css') }}" />
+       <!-- Bootstrap -->
+   
     <title>{{env('APP_NAME')}}</title>
 </head>
 <body>
