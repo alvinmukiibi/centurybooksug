@@ -1,12 +1,15 @@
 
 <template>
-  <div class="container">
-     <h1 class="text-primary font-weight-bold">{{message}}</h1>
-  </div>
+ <Header/>
 </template>
 <script>
+import Header from './Components/Layout/Header.vue';
 
 export default {
+  name: 'App',
+  components: {
+    Header,
+  },
   computed: {},
   data() {
     return {
