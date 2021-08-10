@@ -8,8 +8,7 @@
                             <span
                                 ><img src="images/fl-eng.png" alt=""/>
                                 English
-                                <i class="fa fa-angle-down"></i
-                            ></span>
+                                <i class="fa fa-angle-down"></i></span>
                             <ul class="list-unstyled">
                                 <li>
                                     <img

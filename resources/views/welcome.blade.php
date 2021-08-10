@@ -11,7 +11,7 @@
     </script>
     <link rel="stylesheet" href="{{ asset('static-files/css/assets/bootstrap.min.css') }}">
     <!-- Fontawesome Icon -->
-    <link rel="stylesheet" href="{{ asset('static-files/css/assets/font-awesome.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('static-files/css/assets/font-awesome.min.css')}}">
     <!-- Animate Css -->
     <link rel="stylesheet" href="{{ asset('static-files/css/assets/animate.css') }}">
     <!-- Owl Slider -->
