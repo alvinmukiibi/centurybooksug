@@ -17,7 +17,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-var default_layout = "default";
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   computed: {},
   data: function data() {
