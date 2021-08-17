@@ -126,6 +126,34 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   name: 'Header',
   components: {}
@@ -351,92 +379,199 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("section", { staticClass: "top-bar" }, [
-      _c("div", { staticClass: "container" }, [
-        _c("div", { staticClass: "row" }, [
-          _c("div", { staticClass: "col-lg-6 col-md-4" }, [
-            _c("div", { staticClass: "top-left d-flex" }, [
-              _c("div", { staticClass: "lang-box" }, [
-                _c("span", [
-                  _c("img", { attrs: { src: "images/fl-eng.png", alt: "" } }),
-                  _vm._v(
-                    "\n                            English\n                            "
-                  ),
-                  _c("i", { staticClass: "fa fa-angle-down" })
+    return _c("div", [
+      _c("section", { staticClass: "top-bar" }, [
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "col-lg-6 col-md-4" }, [
+              _c("div", { staticClass: "top-left d-flex" }, [
+                _c("div", { staticClass: "lang-box" }, [
+                  _c(
+                    "a",
+                    {
+                      staticStyle: { color: "green" },
+                      attrs: {
+                        href: "https://wa.me/c/256784783583",
+                        target: "_blank"
+                      }
+                    },
+                    [
+                      _c("span", [
+                        _c("i", { staticClass: "fab fa-whatsapp" }),
+                        _vm._v(" +256 784 783583")
+                      ])
+                    ]
+                  )
                 ]),
                 _vm._v(" "),
-                _c("ul", { staticClass: "list-unstyled" }, [
-                  _c("li", [
-                    _c("img", { attrs: { src: "images/fl-eng.png", alt: "" } }),
-                    _vm._v("English\n                            ")
-                  ]),
-                  _vm._v(" "),
-                  _c("li", [
-                    _c("img", { attrs: { src: "images/fl-fra.png", alt: "" } }),
-                    _vm._v("French\n                            ")
-                  ]),
-                  _vm._v(" "),
-                  _c("li", [
-                    _c("img", { attrs: { src: "images/fl-ger.png", alt: "" } }),
-                    _vm._v("German\n                            ")
-                  ]),
-                  _vm._v(" "),
-                  _c("li", [
-                    _c("img", { attrs: { src: "images/fl-bra.png", alt: "" } }),
-                    _vm._v("Brazilian\n                            ")
-                  ])
+                _c("div", { staticClass: "mny-box" }, [
+                  _c(
+                    "a",
+                    {
+                      staticStyle: { color: "skyblue" },
+                      attrs: {
+                        href: "https://twitter.com/centurybooksug",
+                        target: "_blank"
+                      }
+                    },
+                    [
+                      _c("span", [
+                        _c("i", { staticClass: "fab fa-twitter" }),
+                        _vm._v(" Twitter")
+                      ])
+                    ]
+                  )
                 ])
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "mny-box" }, [
-                _c("span", [
-                  _vm._v("USD"),
-                  _c("i", { staticClass: "fa fa-angle-down" })
-                ]),
-                _vm._v(" "),
-                _c("ul", { staticClass: "list-unstyled" }, [
-                  _c("li", [_vm._v("USD")]),
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-lg-6 col-md-8" }, [
+              _c("div", { staticClass: "top-right text-right" }, [
+                _c("ul", { staticClass: "list-unstyled list-inline" }, [
+                  _c("li", { staticClass: "list-inline-item" }, [
+                    _c("a", { attrs: { href: "" } }, [
+                      _c("img", { attrs: { src: "images/user.png", alt: "" } }),
+                      _vm._v("My\n                                    Account")
+                    ])
+                  ]),
                   _vm._v(" "),
-                  _c("li", [_vm._v("GBP")]),
+                  _c("li", { staticClass: "list-inline-item" }, [
+                    _c("a", { attrs: { href: "" } }, [
+                      _c("img", {
+                        attrs: { src: "images/wishlist.png", alt: "" }
+                      }),
+                      _vm._v("Wishlist")
+                    ])
+                  ]),
                   _vm._v(" "),
-                  _c("li", [_vm._v("EUR")])
+                  _c("li", { staticClass: "list-inline-item" }, [
+                    _c("a", { attrs: { href: "" } }, [
+                      _c("img", {
+                        attrs: { src: "images/checkout.png", alt: "" }
+                      }),
+                      _vm._v("Checkout")
+                    ])
+                  ]),
+                  _vm._v(" "),
+                  _c("li", { staticClass: "list-inline-item" }, [
+                    _c("a", { attrs: { href: "" } }, [
+                      _c("img", {
+                        attrs: { src: "images/login.png", alt: "" }
+                      }),
+                      _vm._v("Login")
+                    ])
+                  ])
                 ])
               ])
             ])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "col-lg-6 col-md-8" }, [
-            _c("div", { staticClass: "top-right text-right" }, [
-              _c("ul", { staticClass: "list-unstyled list-inline" }, [
-                _c("li", { staticClass: "list-inline-item" }, [
-                  _c("a", { attrs: { href: "" } }, [
-                    _c("img", { attrs: { src: "images/user.png", alt: "" } }),
-                    _vm._v("My\n                                Account")
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("section", { staticClass: "logo-area" }, [
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "col-md-3" }, [
+              _c("div", { staticClass: "logo" }, [
+                _c("a", { attrs: { href: "" } }, [
+                  _c("img", { attrs: { src: "images/logo.png", alt: "" } })
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-md-5 padding-fix" }, [
+              _c(
+                "form",
+                { staticClass: "search-bar", attrs: { action: "#" } },
+                [
+                  _c("input", {
+                    attrs: {
+                      type: "text",
+                      name: "search-bar",
+                      placeholder: "I'm looking for..."
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("button", { attrs: { type: "submit" } }, [
+                    _c("i", { staticClass: "fa fa-search" })
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-md-4" }, [
+              _c("div", { staticClass: "carts-area d-flex" }, [
+                _c("div", { staticClass: "call-box d-flex" }, [
+                  _c("div", { staticClass: "call-ico" }, [
+                    _c("img", { attrs: { src: "images/call.png", alt: "" } })
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "call-content" }, [
+                    _c("span", [_vm._v("Call Us")]),
+                    _vm._v(" "),
+                    _c("p", [_vm._v("+256 784 783583")])
                   ])
                 ]),
                 _vm._v(" "),
-                _c("li", { staticClass: "list-inline-item" }, [
-                  _c("a", { attrs: { href: "" } }, [
+                _c("div", { staticClass: "cart-box ml-auto text-center" }, [
+                  _c("a", { staticClass: "cart-btn", attrs: { href: "" } }, [
                     _c("img", {
-                      attrs: { src: "images/wishlist.png", alt: "" }
+                      attrs: { src: "images/cart.png", alt: "cart" }
                     }),
-                    _vm._v("Wishlist")
+                    _vm._v(" "),
+                    _c("span", [_vm._v("2")])
                   ])
-                ]),
-                _vm._v(" "),
-                _c("li", { staticClass: "list-inline-item" }, [
-                  _c("a", { attrs: { href: "" } }, [
-                    _c("img", {
-                      attrs: { src: "images/checkout.png", alt: "" }
-                    }),
-                    _vm._v("Checkout")
-                  ])
-                ]),
-                _vm._v(" "),
-                _c("li", { staticClass: "list-inline-item" }, [
-                  _c("a", { attrs: { href: "" } }, [
-                    _c("img", { attrs: { src: "images/login.png", alt: "" } }),
-                    _vm._v("Login")
+                ])
+              ])
+            ])
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("section", { staticClass: "menu-area" }, [
+        _c("div", { staticClass: "container" }, [
+          _c("div", { staticClass: "row" }, [
+            _c("div", { staticClass: "col-md-12" }, [
+              _c("div", { staticClass: "main-menu" }, [
+                _c("ul", { staticClass: "list-unstyled list-inline" }, [
+                  _c("li", { staticClass: "list-inline-item" }, [
+                    _c("a", [
+                      _vm._v("Bookshop "),
+                      _c("i", { staticClass: "fa fa-home" })
+                    ]),
+                    _c("ul", { staticClass: "dropdown" })
+                  ]),
+                  _vm._v(" "),
+                  _c("li", { staticClass: "list-inline-item" }, [
+                    _c("a", { attrs: { href: "#" } }, [
+                      _vm._v("Top Reads  "),
+                      _c("i", { staticClass: "fa fa-star" })
+                    ]),
+                    _c("ul", { staticClass: "dropdown" })
+                  ]),
+                  _vm._v(" "),
+                  _c("li", { staticClass: "list-inline-item" }, [
+                    _c("a", { attrs: { href: "#" } }, [
+                      _vm._v("Request A Book  "),
+                      _c("i", { staticClass: "fa fa-paper-plane " })
+                    ]),
+                    _c("ul", { staticClass: "dropdown" })
+                  ]),
+                  _vm._v(" "),
+                  _c("li", { staticClass: "list-inline-item" }, [
+                    _c("a", { attrs: { href: "#" } }, [
+                      _vm._v("Blog  "),
+                      _c("i", { staticClass: "fa fa-blog" })
+                    ]),
+                    _c("ul", { staticClass: "dropdown" })
+                  ]),
+                  _vm._v(" "),
+                  _c("li", { staticClass: "list-inline-item" }, [
+                    _c("a", { attrs: { href: "#" } }, [
+                      _vm._v("About Us  "),
+                      _c("i", { staticClass: "fa fa-user" })
+                    ]),
+                    _c("ul", { staticClass: "dropdown" })
                   ])
                 ])
               ])
