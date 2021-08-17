@@ -57,7 +57,7 @@
                 <div class="row">
                     <div class="col-md-3">
                         <div class="logo">
-                            <a href=""><img src="images/century_logo-8.png" alt="" ></a>
+                            <a href=""><img src="images/century_logo.png" alt="" ></a>
                         </div>
                     </div>
                     <div class="col-md-5 padding-fix">

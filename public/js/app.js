@@ -19909,7 +19909,7 @@ var staticRenderFns = [
     return _c("div", { staticClass: "col-md-3" }, [
       _c("div", { staticClass: "logo" }, [
         _c("a", { attrs: { href: "" } }, [
-          _c("img", { attrs: { src: "images/century_logo-8.png", alt: "" } })
+          _c("img", { attrs: { src: "images/century_logo.png", alt: "" } })
         ])
       ])
     ])
