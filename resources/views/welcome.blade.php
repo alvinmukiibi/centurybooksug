@@ -28,9 +28,11 @@
 
 <body>
     <div id="app">
-        <app></app>
+        <main-header></main-header>
+        <div>
+            <router-view></router-view>
+        </div>
     </div>
-
 
     <script src="{{ mix('js/app.js') }}"></script>
     <script src="{{ asset('static-files/js/assets/vendor/jquery-1.12.4.min.js') }}"></script>

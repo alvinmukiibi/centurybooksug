@@ -133,7 +133,7 @@
 
 <script>
 export default {
-  name: 'Header',
+  name: 'MainHeader',
   components: {}
 };
 </script>
