@@ -57,7 +57,7 @@
                 <div class="row">
                     <div class="col-md-3">
                         <div class="logo">
-                            <a href=""><img  src="images/logo.png" alt=""></a>
+                            <a href=""><img src="images/century_logo-8.png" alt="" ></a>
                         </div>
                     </div>
                     <div class="col-md-5 padding-fix">
@@ -93,7 +93,7 @@
                 <div class="row">
                     <div class="col-lg-2 col-md-3">
                         <div class="sticky-logo">
-                            <a href="index.html"><img src="images/logo.png" alt="" class="img-fluid"></a>
+                            <a href="index.html"><img src="images/century_logo-2.png" alt="" class="img-fluid"></a>
                         </div>
                     </div>
                     <div class="col-lg-10 col-md-9">
