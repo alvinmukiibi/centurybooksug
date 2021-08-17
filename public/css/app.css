@@ -1383,6 +1383,7 @@ html {
   .menu-area .main-menu ul li ul.dropdown li a:hover {
     background: #f5f5f5;
     color: #5677fc;
+    
   }
   
   .menu-area .main-menu ul li:hover ul.dropdown {
@@ -1726,6 +1727,7 @@ html {
   
   .menu-area2 .main-menu ul li a:hover {
     cursor: pointer;
+
   }
   
   .menu-area2 .main-menu ul li:last-child.cup-btn {
@@ -1752,7 +1754,7 @@ html {
     position: absolute;
     left: 0;
     top: 100%;
-    min-width: 170px;
+    min-width: 100%;
     background: #fff;
     text-align: left;
     border: 1px solid #eeeeee;
