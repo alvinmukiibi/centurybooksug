@@ -88,17 +88,39 @@
                 </div>
             </div>
         </section>
-        <section class="menu-area">
+        <section class="menu-area2">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-lg-3 col-md-0">
+                        <div class="sidemenu">
+                            <p>All Categories <i class="fa fa-bars"></i></p>
+                            <ul class="list-unstyled gt-menu">
+                                <li><a href=""><img src="images/book.png" alt=""> - Hard Copy</a></li>
+                                <li><a href=""><img src="images/book.png" alt="">African Affairs</a></li>
+                                <li><a href=""><img src="images/book.png" alt="">African Literature</a></li>
+                                <li><a href=""><img src="images/book.png" alt="">Best Sellers</a></li>
+                                <li><a href=""><img src="images/book.png" alt="">Children</a></li>
+                                <li><a href=""><img src="images/book.png" alt="">Classics</a></li>
+                                <li><a href=""><img src="images/book.png" alt="">Contemporary</a></li>
+                                <li><a href=""><img src="images/book.png" alt="">Controversial</a></li>
+                                <li><a href=""><img src="images/book.png" alt="">Literary Fiction</a></li>
+                                <li><a href=""><img src="images/book.png" alt="">Religion</a></li>
+                                <li><a href=""><img src="images/book.png" alt="">Self Help</a></li>
+                                <li><a href=""><img src="images/book.png" alt="">Series & Chronicles</a></li>
+                                <li><a href=""><img src="images/book.png" alt="">Poetry</a></li>
+                                <li><a href=""><img src="images/book.png" alt="">Politics & History</a></li>
+                                <li><a href=""><img src="images/book.png" alt="">Ugandan Authors</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 col-md-12">
                         <div class="main-menu">
                             <ul class="list-unstyled list-inline">
-                                <li class="list-inline-item"><a>Bookshop <i class="fa fa-home"></i></a><ul class="dropdown"></ul></li>
-                                <li class="list-inline-item"><a href="#">Top Reads  <i class="fa fa-star"></i></a><ul class="dropdown"></ul></li>
-                                <li class="list-inline-item"><a href="#">Request A Book  <i class="fa fa-paper-plane "></i></a><ul class="dropdown"></ul></li>
-                                <li class="list-inline-item"><a href="#">Blog  <i class="fa fa-blog"></i></a><ul class="dropdown"></ul></li>
-                                <li class="list-inline-item"><a href="#">About Us  <i class="fa fa-user"></i></a><ul class="dropdown"></ul></li>
+                                <li class="list-inline-item"><a>Bookshop <i style="color:green" class="fa fa-home"></i></a><ul class="dropdown"></ul></li>
+                                <li class="list-inline-item"><a href="#">Top Reads  <i style="color:orange" class="fa fa-star"></i></a><ul class="dropdown"></ul></li>
+                                <li class="list-inline-item"><a href="#">Request A Book  <i style="color:blue" class="fa fa-paper-plane "></i></a><ul class="dropdown"></ul></li>
+                                <li class="list-inline-item"><a href="#">Blog  <i style="color:magenta" class="fa fa-blog"></i></a><ul class="dropdown"></ul></li>
+                                <li class="list-inline-item"><a href="#">About Us  <i style="color:yellow" class="fa fa-user"></i></a><ul class="dropdown"></ul></li>
                             </ul>
                         </div>
                     </div>
