@@ -28,6 +28,12 @@
 
 <body>
     <div id="app">
+        <div class="preloader">
+            <div class="load-list">
+                <div class="load"></div>
+                <div class="load load2"></div>
+            </div>
+        </div>
         <main-header></main-header>
         <div>
             <router-view></router-view>
