@@ -7,7 +7,7 @@ The Website is supposed to be of a two-tier flow architecture with intersected c
 
 ## How To Run
 
-- npm run dev
+- npm run watch
 - php artisan serve
 
 ## Developers
