@@ -1978,9 +1978,40 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   name: 'MainHeader',
-  components: {}
+  components: {},
+  data: function data() {
+    return {
+      whatsapp_link: "https://wa.me/c/256784783583",
+      twitter_handle: "https://twitter.com/centurybooksug",
+      phone_number: "+256 784 783583"
+    };
+  }
 });
 
 /***/ }),
@@ -19751,338 +19782,438 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c("div", [
+    _c("section", { staticClass: "top-bar" }, [
+      _c("div", { staticClass: "container" }, [
+        _c("div", { staticClass: "row" }, [
+          _c("div", { staticClass: "col-lg-6 col-md-4" }, [
+            _c("div", { staticClass: "top-left d-flex" }, [
+              _c("div", { staticClass: "lang-box" }, [
+                _c(
+                  "a",
+                  {
+                    staticStyle: { color: "green" },
+                    attrs: { href: _vm.whatsapp_link, target: "_blank" }
+                  },
+                  [
+                    _c("span", [
+                      _c("i", { staticClass: "fab fa-whatsapp" }),
+                      _vm._v(" " + _vm._s(_vm.phone_number) + " ")
+                    ])
+                  ]
+                )
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "mny-box" }, [
+                _c(
+                  "a",
+                  {
+                    staticStyle: { color: "skyblue" },
+                    attrs: { href: _vm.twitter_handle, target: "_blank" }
+                  },
+                  [_vm._m(0)]
+                )
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _vm._m(1)
+        ])
+      ])
+    ]),
+    _vm._v(" "),
+    _c("section", { staticClass: "logo-area" }, [
+      _c("div", { staticClass: "container" }, [
+        _c("div", { staticClass: "row" }, [
+          _vm._m(2),
+          _vm._v(" "),
+          _vm._m(3),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-md-4" }, [
+            _c("div", { staticClass: "carts-area d-flex" }, [
+              _c("div", { staticClass: "call-box d-flex" }, [
+                _vm._m(4),
+                _vm._v(" "),
+                _c("div", { staticClass: "call-content" }, [
+                  _c("span", [_vm._v("Call Us")]),
+                  _vm._v(" "),
+                  _c("p", [_vm._v(" " + _vm._s(_vm.phone_number) + " ")])
+                ])
+              ]),
+              _vm._v(" "),
+              _vm._m(5)
+            ])
+          ])
+        ])
+      ])
+    ]),
+    _vm._v(" "),
+    _vm._m(6),
+    _vm._v(" "),
+    _vm._m(7)
+  ])
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", [
-      _c("section", { staticClass: "top-bar" }, [
-        _c("div", { staticClass: "container" }, [
-          _c("div", { staticClass: "row" }, [
-            _c("div", { staticClass: "col-lg-6 col-md-4" }, [
-              _c("div", { staticClass: "top-left d-flex" }, [
-                _c("div", { staticClass: "lang-box" }, [
-                  _c(
-                    "a",
-                    {
-                      staticStyle: { color: "green" },
-                      attrs: {
-                        href: "https://wa.me/c/256784783583",
-                        target: "_blank"
-                      }
-                    },
-                    [
-                      _c("span", [
-                        _c("i", { staticClass: "fab fa-whatsapp" }),
-                        _vm._v(" +256 784 783583")
-                      ])
-                    ]
-                  )
+    return _c("span", [
+      _c("i", { staticClass: "fab fa-twitter" }),
+      _vm._v(" Twitter")
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-lg-6 col-md-8" }, [
+      _c("div", { staticClass: "top-right text-right" }, [
+        _c("ul", { staticClass: "list-unstyled list-inline" }, [
+          _c("li", { staticClass: "list-inline-item" }, [
+            _c("a", { attrs: { href: "" } }, [
+              _c("img", { attrs: { src: "images/user.png", alt: "" } }),
+              _vm._v("My\n                                    Account")
+            ])
+          ]),
+          _vm._v(" "),
+          _c("li", { staticClass: "list-inline-item" }, [
+            _c("a", { attrs: { href: "" } }, [
+              _c("img", { attrs: { src: "images/wishlist.png", alt: "" } }),
+              _vm._v("Wishlist")
+            ])
+          ]),
+          _vm._v(" "),
+          _c("li", { staticClass: "list-inline-item" }, [
+            _c("a", { attrs: { href: "" } }, [
+              _c("img", { attrs: { src: "images/checkout.png", alt: "" } }),
+              _vm._v("Checkout")
+            ])
+          ]),
+          _vm._v(" "),
+          _c("li", { staticClass: "list-inline-item" }, [
+            _c("a", { attrs: { href: "" } }, [
+              _c("img", { attrs: { src: "images/login.png", alt: "" } }),
+              _vm._v("Login")
+            ])
+          ])
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-md-3" }, [
+      _c("div", { staticClass: "logo" }, [
+        _c("a", { attrs: { href: "" } }, [
+          _c("img", { attrs: { src: "images/logo.png", alt: "" } })
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "col-md-5 padding-fix" }, [
+      _c("form", { staticClass: "search-bar", attrs: { action: "#" } }, [
+        _c("input", {
+          attrs: {
+            type: "text",
+            name: "search-bar",
+            placeholder: "I'm looking for..."
+          }
+        }),
+        _vm._v(" "),
+        _c("button", { attrs: { type: "submit" } }, [
+          _c("i", { staticClass: "fa fa-search" })
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "call-ico" }, [
+      _c("img", { attrs: { src: "images/call.png", alt: "" } })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "cart-box ml-auto text-center" }, [
+      _c("a", { staticClass: "cart-btn", attrs: { href: "" } }, [
+        _c("img", { attrs: { src: "images/cart.png", alt: "cart" } }),
+        _vm._v(" "),
+        _c("span", [_vm._v("2")])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("section", { staticClass: "sticky-menu" }, [
+      _c("div", { staticClass: "container" }, [
+        _c("div", { staticClass: "row" }, [
+          _c("div", { staticClass: "col-lg-2 col-md-3" }, [
+            _c("div", { staticClass: "sticky-logo" }, [
+              _c("a", { attrs: { href: "index.html" } }, [
+                _c("img", {
+                  staticClass: "img-fluid",
+                  attrs: { src: "images/logo.png", alt: "" }
+                })
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-lg-10 col-md-9" }, [
+            _c("div", { staticClass: "main-menu" }, [
+              _c("ul", { staticClass: "list-unstyled list-inline" }, [
+                _c("li", { staticClass: "list-inline-item" }, [
+                  _c("a", [
+                    _vm._v("Bookshop "),
+                    _c("i", {
+                      staticClass: "fa fa-home",
+                      staticStyle: { color: "green" }
+                    })
+                  ]),
+                  _c("ul", { staticClass: "dropdown" })
                 ]),
                 _vm._v(" "),
-                _c("div", { staticClass: "mny-box" }, [
-                  _c(
-                    "a",
-                    {
-                      staticStyle: { color: "skyblue" },
-                      attrs: {
-                        href: "https://twitter.com/centurybooksug",
-                        target: "_blank"
-                      }
-                    },
-                    [
-                      _c("span", [
-                        _c("i", { staticClass: "fab fa-twitter" }),
-                        _vm._v(" Twitter")
-                      ])
-                    ]
-                  )
-                ])
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "col-lg-6 col-md-8" }, [
-              _c("div", { staticClass: "top-right text-right" }, [
-                _c("ul", { staticClass: "list-unstyled list-inline" }, [
-                  _c("li", { staticClass: "list-inline-item" }, [
-                    _c("a", { attrs: { href: "" } }, [
-                      _c("img", { attrs: { src: "images/user.png", alt: "" } }),
-                      _vm._v("My\n                                    Account")
-                    ])
+                _c("li", { staticClass: "list-inline-item" }, [
+                  _c("a", { attrs: { href: "#" } }, [
+                    _vm._v("Top Reads  "),
+                    _c("i", {
+                      staticClass: "fa fa-star",
+                      staticStyle: { color: "orange" }
+                    })
                   ]),
-                  _vm._v(" "),
-                  _c("li", { staticClass: "list-inline-item" }, [
-                    _c("a", { attrs: { href: "" } }, [
-                      _c("img", {
-                        attrs: { src: "images/wishlist.png", alt: "" }
-                      }),
-                      _vm._v("Wishlist")
-                    ])
+                  _c("ul", { staticClass: "dropdown" })
+                ]),
+                _vm._v(" "),
+                _c("li", { staticClass: "list-inline-item" }, [
+                  _c("a", { attrs: { href: "#" } }, [
+                    _vm._v("Request A Book  "),
+                    _c("i", {
+                      staticClass: "fa fa-paper-plane ",
+                      staticStyle: { color: "blue" }
+                    })
                   ]),
-                  _vm._v(" "),
-                  _c("li", { staticClass: "list-inline-item" }, [
-                    _c("a", { attrs: { href: "" } }, [
-                      _c("img", {
-                        attrs: { src: "images/checkout.png", alt: "" }
-                      }),
-                      _vm._v("Checkout")
-                    ])
+                  _c("ul", { staticClass: "dropdown" })
+                ]),
+                _vm._v(" "),
+                _c("li", { staticClass: "list-inline-item" }, [
+                  _c("a", { attrs: { href: "#" } }, [
+                    _vm._v("Blog  "),
+                    _c("i", {
+                      staticClass: "fa fa-blog",
+                      staticStyle: { color: "magenta" }
+                    })
                   ]),
-                  _vm._v(" "),
-                  _c("li", { staticClass: "list-inline-item" }, [
-                    _c("a", { attrs: { href: "" } }, [
-                      _c("img", {
-                        attrs: { src: "images/login.png", alt: "" }
-                      }),
-                      _vm._v("Login")
-                    ])
-                  ])
+                  _c("ul", { staticClass: "dropdown" })
+                ]),
+                _vm._v(" "),
+                _c("li", { staticClass: "list-inline-item" }, [
+                  _c("a", { attrs: { href: "#" } }, [
+                    _vm._v("About Us  "),
+                    _c("i", {
+                      staticClass: "fa fa-user",
+                      staticStyle: { color: "yellow" }
+                    })
+                  ]),
+                  _c("ul", { staticClass: "dropdown" })
                 ])
               ])
             ])
           ])
         ])
-      ]),
-      _vm._v(" "),
-      _c("section", { staticClass: "logo-area" }, [
-        _c("div", { staticClass: "container" }, [
-          _c("div", { staticClass: "row" }, [
-            _c("div", { staticClass: "col-md-3" }, [
-              _c("div", { staticClass: "logo" }, [
-                _c("a", { attrs: { href: "" } }, [
-                  _c("img", { attrs: { src: "images/logo.png", alt: "" } })
-                ])
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "col-md-5 padding-fix" }, [
-              _c(
-                "form",
-                { staticClass: "search-bar", attrs: { action: "#" } },
-                [
-                  _c("input", {
-                    attrs: {
-                      type: "text",
-                      name: "search-bar",
-                      placeholder: "I'm looking for..."
-                    }
-                  }),
-                  _vm._v(" "),
-                  _c("button", { attrs: { type: "submit" } }, [
-                    _c("i", { staticClass: "fa fa-search" })
-                  ])
-                ]
-              )
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "col-md-4" }, [
-              _c("div", { staticClass: "carts-area d-flex" }, [
-                _c("div", { staticClass: "call-box d-flex" }, [
-                  _c("div", { staticClass: "call-ico" }, [
-                    _c("img", { attrs: { src: "images/call.png", alt: "" } })
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "call-content" }, [
-                    _c("span", [_vm._v("Call Us")]),
-                    _vm._v(" "),
-                    _c("p", [_vm._v("+256 784 783583")])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("section", { staticClass: "menu-area2" }, [
+      _c("div", { staticClass: "container" }, [
+        _c("div", { staticClass: "row" }, [
+          _c("div", { staticClass: "col-lg-3 col-md-0" }, [
+            _c("div", { staticClass: "sidemenu" }, [
+              _c("p", [
+                _vm._v("All Categories "),
+                _c("i", { staticClass: "fa fa-bars" })
+              ]),
+              _vm._v(" "),
+              _c("ul", { staticClass: "list-unstyled gt-menu" }, [
+                _c("li", [
+                  _c("a", { attrs: { href: "" } }, [
+                    _c("img", { attrs: { src: "images/book.png", alt: "" } }),
+                    _vm._v(" - Hard Copy")
                   ])
                 ]),
                 _vm._v(" "),
-                _c("div", { staticClass: "cart-box ml-auto text-center" }, [
-                  _c("a", { staticClass: "cart-btn", attrs: { href: "" } }, [
-                    _c("img", {
-                      attrs: { src: "images/cart.png", alt: "cart" }
-                    }),
-                    _vm._v(" "),
-                    _c("span", [_vm._v("2")])
+                _c("li", [
+                  _c("a", { attrs: { href: "" } }, [
+                    _c("img", { attrs: { src: "images/book.png", alt: "" } }),
+                    _vm._v("African Affairs")
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c("a", { attrs: { href: "" } }, [
+                    _c("img", { attrs: { src: "images/book.png", alt: "" } }),
+                    _vm._v("African Literature")
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c("a", { attrs: { href: "" } }, [
+                    _c("img", { attrs: { src: "images/book.png", alt: "" } }),
+                    _vm._v("Best Sellers")
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c("a", { attrs: { href: "" } }, [
+                    _c("img", { attrs: { src: "images/book.png", alt: "" } }),
+                    _vm._v("Children")
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c("a", { attrs: { href: "" } }, [
+                    _c("img", { attrs: { src: "images/book.png", alt: "" } }),
+                    _vm._v("Classics")
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c("a", { attrs: { href: "" } }, [
+                    _c("img", { attrs: { src: "images/book.png", alt: "" } }),
+                    _vm._v("Contemporary")
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c("a", { attrs: { href: "" } }, [
+                    _c("img", { attrs: { src: "images/book.png", alt: "" } }),
+                    _vm._v("Controversial")
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c("a", { attrs: { href: "" } }, [
+                    _c("img", { attrs: { src: "images/book.png", alt: "" } }),
+                    _vm._v("Literary Fiction")
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c("a", { attrs: { href: "" } }, [
+                    _c("img", { attrs: { src: "images/book.png", alt: "" } }),
+                    _vm._v("Religion")
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c("a", { attrs: { href: "" } }, [
+                    _c("img", { attrs: { src: "images/book.png", alt: "" } }),
+                    _vm._v("Self Help")
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c("a", { attrs: { href: "" } }, [
+                    _c("img", { attrs: { src: "images/book.png", alt: "" } }),
+                    _vm._v("Series & Chronicles")
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c("a", { attrs: { href: "" } }, [
+                    _c("img", { attrs: { src: "images/book.png", alt: "" } }),
+                    _vm._v("Poetry")
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c("a", { attrs: { href: "" } }, [
+                    _c("img", { attrs: { src: "images/book.png", alt: "" } }),
+                    _vm._v("Politics & History")
+                  ])
+                ]),
+                _vm._v(" "),
+                _c("li", [
+                  _c("a", { attrs: { href: "" } }, [
+                    _c("img", { attrs: { src: "images/book.png", alt: "" } }),
+                    _vm._v("Ugandan Authors")
                   ])
                 ])
               ])
             ])
-          ])
-        ])
-      ]),
-      _vm._v(" "),
-      _c("section", { staticClass: "menu-area2" }, [
-        _c("div", { staticClass: "container" }, [
-          _c("div", { staticClass: "row" }, [
-            _c("div", { staticClass: "col-lg-3 col-md-0" }, [
-              _c("div", { staticClass: "sidemenu" }, [
-                _c("p", [
-                  _vm._v("All Categories "),
-                  _c("i", { staticClass: "fa fa-bars" })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-lg-9 col-md-12" }, [
+            _c("div", { staticClass: "main-menu" }, [
+              _c("ul", { staticClass: "list-unstyled list-inline" }, [
+                _c("li", { staticClass: "list-inline-item" }, [
+                  _c("a", [
+                    _vm._v("Bookshop "),
+                    _c("i", {
+                      staticClass: "fa fa-home",
+                      staticStyle: { color: "green" }
+                    })
+                  ]),
+                  _c("ul", { staticClass: "dropdown" })
                 ]),
                 _vm._v(" "),
-                _c("ul", { staticClass: "list-unstyled gt-menu" }, [
-                  _c("li", [
-                    _c("a", { attrs: { href: "" } }, [
-                      _c("img", { attrs: { src: "images/book.png", alt: "" } }),
-                      _vm._v(" - Hard Copy")
-                    ])
+                _c("li", { staticClass: "list-inline-item" }, [
+                  _c("a", { attrs: { href: "#" } }, [
+                    _vm._v("Top Reads  "),
+                    _c("i", {
+                      staticClass: "fa fa-star",
+                      staticStyle: { color: "orange" }
+                    })
                   ]),
-                  _vm._v(" "),
-                  _c("li", [
-                    _c("a", { attrs: { href: "" } }, [
-                      _c("img", { attrs: { src: "images/book.png", alt: "" } }),
-                      _vm._v("African Affairs")
-                    ])
+                  _c("ul", { staticClass: "dropdown" })
+                ]),
+                _vm._v(" "),
+                _c("li", { staticClass: "list-inline-item" }, [
+                  _c("a", { attrs: { href: "#" } }, [
+                    _vm._v("Request A Book  "),
+                    _c("i", {
+                      staticClass: "fa fa-paper-plane ",
+                      staticStyle: { color: "blue" }
+                    })
                   ]),
-                  _vm._v(" "),
-                  _c("li", [
-                    _c("a", { attrs: { href: "" } }, [
-                      _c("img", { attrs: { src: "images/book.png", alt: "" } }),
-                      _vm._v("African Literature")
-                    ])
+                  _c("ul", { staticClass: "dropdown" })
+                ]),
+                _vm._v(" "),
+                _c("li", { staticClass: "list-inline-item" }, [
+                  _c("a", { attrs: { href: "#" } }, [
+                    _vm._v("Blog  "),
+                    _c("i", {
+                      staticClass: "fa fa-blog",
+                      staticStyle: { color: "magenta" }
+                    })
                   ]),
-                  _vm._v(" "),
-                  _c("li", [
-                    _c("a", { attrs: { href: "" } }, [
-                      _c("img", { attrs: { src: "images/book.png", alt: "" } }),
-                      _vm._v("Best Sellers")
-                    ])
+                  _c("ul", { staticClass: "dropdown" })
+                ]),
+                _vm._v(" "),
+                _c("li", { staticClass: "list-inline-item" }, [
+                  _c("a", { attrs: { href: "#" } }, [
+                    _vm._v("About Us  "),
+                    _c("i", {
+                      staticClass: "fa fa-user",
+                      staticStyle: { color: "yellow" }
+                    })
                   ]),
-                  _vm._v(" "),
-                  _c("li", [
-                    _c("a", { attrs: { href: "" } }, [
-                      _c("img", { attrs: { src: "images/book.png", alt: "" } }),
-                      _vm._v("Children")
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("li", [
-                    _c("a", { attrs: { href: "" } }, [
-                      _c("img", { attrs: { src: "images/book.png", alt: "" } }),
-                      _vm._v("Classics")
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("li", [
-                    _c("a", { attrs: { href: "" } }, [
-                      _c("img", { attrs: { src: "images/book.png", alt: "" } }),
-                      _vm._v("Contemporary")
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("li", [
-                    _c("a", { attrs: { href: "" } }, [
-                      _c("img", { attrs: { src: "images/book.png", alt: "" } }),
-                      _vm._v("Controversial")
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("li", [
-                    _c("a", { attrs: { href: "" } }, [
-                      _c("img", { attrs: { src: "images/book.png", alt: "" } }),
-                      _vm._v("Literary Fiction")
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("li", [
-                    _c("a", { attrs: { href: "" } }, [
-                      _c("img", { attrs: { src: "images/book.png", alt: "" } }),
-                      _vm._v("Religion")
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("li", [
-                    _c("a", { attrs: { href: "" } }, [
-                      _c("img", { attrs: { src: "images/book.png", alt: "" } }),
-                      _vm._v("Self Help")
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("li", [
-                    _c("a", { attrs: { href: "" } }, [
-                      _c("img", { attrs: { src: "images/book.png", alt: "" } }),
-                      _vm._v("Series & Chronicles")
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("li", [
-                    _c("a", { attrs: { href: "" } }, [
-                      _c("img", { attrs: { src: "images/book.png", alt: "" } }),
-                      _vm._v("Poetry")
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("li", [
-                    _c("a", { attrs: { href: "" } }, [
-                      _c("img", { attrs: { src: "images/book.png", alt: "" } }),
-                      _vm._v("Politics & History")
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c("li", [
-                    _c("a", { attrs: { href: "" } }, [
-                      _c("img", { attrs: { src: "images/book.png", alt: "" } }),
-                      _vm._v("Ugandan Authors")
-                    ])
-                  ])
-                ])
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "col-lg-9 col-md-12" }, [
-              _c("div", { staticClass: "main-menu" }, [
-                _c("ul", { staticClass: "list-unstyled list-inline" }, [
-                  _c("li", { staticClass: "list-inline-item" }, [
-                    _c("a", [
-                      _vm._v("Bookshop "),
-                      _c("i", {
-                        staticClass: "fa fa-home",
-                        staticStyle: { color: "green" }
-                      })
-                    ]),
-                    _c("ul", { staticClass: "dropdown" })
-                  ]),
-                  _vm._v(" "),
-                  _c("li", { staticClass: "list-inline-item" }, [
-                    _c("a", { attrs: { href: "#" } }, [
-                      _vm._v("Top Reads  "),
-                      _c("i", {
-                        staticClass: "fa fa-star",
-                        staticStyle: { color: "orange" }
-                      })
-                    ]),
-                    _c("ul", { staticClass: "dropdown" })
-                  ]),
-                  _vm._v(" "),
-                  _c("li", { staticClass: "list-inline-item" }, [
-                    _c("a", { attrs: { href: "#" } }, [
-                      _vm._v("Request A Book  "),
-                      _c("i", {
-                        staticClass: "fa fa-paper-plane ",
-                        staticStyle: { color: "blue" }
-                      })
-                    ]),
-                    _c("ul", { staticClass: "dropdown" })
-                  ]),
-                  _vm._v(" "),
-                  _c("li", { staticClass: "list-inline-item" }, [
-                    _c("a", { attrs: { href: "#" } }, [
-                      _vm._v("Blog  "),
-                      _c("i", {
-                        staticClass: "fa fa-blog",
-                        staticStyle: { color: "magenta" }
-                      })
-                    ]),
-                    _c("ul", { staticClass: "dropdown" })
-                  ]),
-                  _vm._v(" "),
-                  _c("li", { staticClass: "list-inline-item" }, [
-                    _c("a", { attrs: { href: "#" } }, [
-                      _vm._v("About Us  "),
-                      _c("i", {
-                        staticClass: "fa fa-user",
-                        staticStyle: { color: "yellow" }
-                      })
-                    ]),
-                    _c("ul", { staticClass: "dropdown" })
-                  ])
+                  _c("ul", { staticClass: "dropdown" })
                 ])
               ])
             ])

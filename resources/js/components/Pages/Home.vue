@@ -1,7 +1,7 @@
 <template>
     <div>
     <br>
-         <section class="banner3">
+        <section class="banner3">
             <div class="container">
                 <div class="row">
                     <div class="col-md-2">
@@ -74,7 +74,7 @@
                 </div>
             </div>
         </section>
-        
+       
     </div>
 </template>
 

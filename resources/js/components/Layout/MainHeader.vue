@@ -6,10 +6,10 @@
                     <div class="col-lg-6 col-md-4">
                         <div class="top-left d-flex">
                             <div class="lang-box">
-                               <a  style="color:green;" href="https://wa.me/c/256784783583" target="_blank"><span><i class="fab fa-whatsapp"></i> +256 784 783583</span></a>
+                               <a  style="color:green;" :href="whatsapp_link" target="_blank"><span><i class="fab fa-whatsapp"></i> {{ phone_number }} </span></a>
                             </div>
                             <div class="mny-box">
-                                 <a style="color:skyblue;" href="https://twitter.com/centurybooksug" target="_blank"><span><i  class="fab fa-twitter"></i> Twitter</span></a>
+                                 <a style="color:skyblue;" :href="twitter_handle" target="_blank"><span><i  class="fab fa-twitter"></i> Twitter</span></a>
                             </div>
                         </div>
                     </div>
@@ -74,7 +74,7 @@
                                 </div>
                                 <div class="call-content">
                                     <span>Call Us</span>
-                                    <p>+256 784 783583</p>
+                                    <p> {{ phone_number }} </p>
                                 </div>
                             </div>
                             <div class="cart-box ml-auto text-center">
@@ -88,6 +88,30 @@
                 </div>
             </div>
         </section>
+        <section class="sticky-menu">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2 col-md-3">
+                        <div class="sticky-logo">
+                            <a href="index.html"><img src="images/logo.png" alt="" class="img-fluid"></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-10 col-md-9">
+                      <div class="main-menu">
+                            <ul class="list-unstyled list-inline">
+                                <li class="list-inline-item"><a>Bookshop <i style="color:green" class="fa fa-home"></i></a><ul class="dropdown"></ul></li>
+                                <li class="list-inline-item"><a href="#">Top Reads  <i style="color:orange" class="fa fa-star"></i></a><ul class="dropdown"></ul></li>
+                                <li class="list-inline-item"><a href="#">Request A Book  <i style="color:blue" class="fa fa-paper-plane "></i></a><ul class="dropdown"></ul></li>
+                                <li class="list-inline-item"><a href="#">Blog  <i style="color:magenta" class="fa fa-blog"></i></a><ul class="dropdown"></ul></li>
+                                <li class="list-inline-item"><a href="#">About Us  <i style="color:yellow" class="fa fa-user"></i></a><ul class="dropdown"></ul></li>
+                            </ul>
+                        </div>
+                    </div>
+                  
+                </div>
+            </div>
+        </section>
+        <!-- End Sticky Menu -->
         <section class="menu-area2">
             <div class="container">
                 <div class="row">
@@ -134,7 +158,14 @@
 <script>
 export default {
   name: 'MainHeader',
-  components: {}
+  components: {},
+  data() {
+      return {
+          whatsapp_link: "https://wa.me/c/256784783583",
+          twitter_handle: "https://twitter.com/centurybooksug",
+          phone_number: "+256 784 783583",
+      }
+  },
 };
 </script>
 
