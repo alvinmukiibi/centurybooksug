@@ -9349,7 +9349,7 @@ html {
   }
   
   .footer-top .f-contact h5 {
-    color: #dddddd;
+    color: #5677fc;
     font-weight: 600;
     text-transform: uppercase;
     margin-bottom: 30px;
@@ -9403,7 +9403,7 @@ html {
   }
   
   .footer-top .f-cat h5, .footer-top .f-sup h5, .footer-top .f-link h5 {
-    color: #dddddd;
+    color:  #5677fc;
     font-weight: 600;
     text-transform: uppercase;
     margin-bottom: 30px;
@@ -9482,3 +9482,15 @@ html {
     background: #fff;
   }
   
+
+.owl-item {
+  width: 162.667px !important;   
+}
+
+.product-area .new-product .sec-title h5 {
+  font-weight: 400;
+  
+}
+
+
+

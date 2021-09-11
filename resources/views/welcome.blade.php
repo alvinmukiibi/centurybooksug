@@ -11,7 +11,7 @@
     </script>
     <link rel="stylesheet" href="{{ asset('static-files/css/assets/bootstrap.min.css') }}">
     <!-- Fontawesome Icon -->
-    <!-- <link rel="stylesheet" href="{{ asset('static-files/css/assets/font-awesome.min.css')}}"> -->
+    <link rel="stylesheet" href="{{ asset('static-files/css/assets/font-awesome.min.css')}}"> 
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <!-- Animate Css -->
     <link rel="stylesheet" href="{{ asset('static-files/css/assets/animate.css') }}">
@@ -45,6 +45,7 @@
 
     <!-- Bootstrap -->
     <script src="{{ asset('static-files/js/assets/popper.min.js') }}"></script>
+    
     <script src="{{ asset('static-files/js/assets/bootstrap.min.js') }}"></script>
 
     <!-- Owl Slider -->
